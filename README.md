@@ -13,5 +13,10 @@ Main parts of the code;
 Note that the PUBNUB Rest API also sends Authorization key as `SPP`. Which means PubNub Access manager should be enabled on you PubNub
 account. Provide your publish and subscribe keys too.
 
+See it in action 
+https://www.youtube.com/watch?v=9gTDlD1whdw
+
+Circuit diagram:
+
 ![](Circuit_diagram.bmp)
 
