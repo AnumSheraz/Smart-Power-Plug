@@ -6,7 +6,8 @@ Main parts of the code;
   it will go into Wifi-Server mode running on 192.168.4.1. Go there and provide new Wifi SSID and password. Opeon restart, it will connect
   to new Wifi network.
 - Calculates Power using EmonLib Library. Get it from https://www.arduinolibraries.info/libraries/emon-lib
-  and sends to PubNub channel `channel_chart`
+  and sends to PubNub channel `channel_chart`. Current transformer used is zmct103c. available from;
+  https://artofcircuits.com/product/zmct103c-5a-current-transformer
 - Listens for input switch button and sends ON/OFF trigger to PubNub on channel `channel_SPP`
 - Listens for uncoming data from PubNub on channel `channel_SPP` and controls the device accordingly.
 
